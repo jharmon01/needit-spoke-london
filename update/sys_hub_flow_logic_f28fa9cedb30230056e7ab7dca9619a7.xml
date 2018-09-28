@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">f68fa9cedb30230056e7ab7dca9619a5</block>
+        <comment>Assign Follow-up task record to output</comment>
+        <connected_to/>
+        <display_text/>
+        <flow display_value="Handle Overdue NeedIt Tasks">e62275b9dbb0230056e7ab7dca961956</flow>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned>follow_up_task</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-28 14:38:26</sys_created_on>
+        <sys_id>f28fa9cedb30230056e7ab7dca9619a7</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt Spoke" source="x_270536_needit_sp">2149e755db70230056e7ab7dca9619a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">2149e755db70230056e7ab7dca9619a5</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_f28fa9cedb30230056e7ab7dca9619a7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-28 15:16:29</sys_updated_on>
+        <ui_id>a199c970-eaf5-49a0-ad10-2538a4ab8f9b</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=f28fa9cedb30230056e7ab7dca9619a7"/>
+    <sys_element_mapping action="delete_multiple" query="id=f28fa9cedb30230056e7ab7dca9619a7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>follow_up_task</field>
+        <id>f28fa9cedb30230056e7ab7dca9619a7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-28 14:38:26</sys_created_on>
+        <sys_id>ba8fa9cedb30230056e7ab7dca9619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-28 14:38:26</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_e62275b9dbb0230056e7ab7dca961956</table>
+        <value>{{3693b932-d134-439b-9e1a-76a2c9c27039.Record}}</value>
+    </sys_element_mapping>
+</record_update>
